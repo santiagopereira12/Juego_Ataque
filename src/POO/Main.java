@@ -27,7 +27,7 @@ public class Main {
             System.out.println("¿Quien va atacar? (JUGADOR/MONSTRUO)");
             String turno = scanner.nextLine().trim().toUpperCase();
 
-            if (jugador.equals("JUGADOR")){
+            if (turno.equals("JUGADOR")){
                 jugador.atacar(monstruo);
             }else {
                 monstruo.atacar(jugador);
